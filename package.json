@@ -1,0 +1,23 @@
+{
+  "name": "dux5u",
+  "version": "1.0.0",
+  "description": "Using asScroll with Nuxt.",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@ashthornton/asscroll": "1.6.1",
+    "@nuxt/http": "0.5.11",
+    "gsap": "3.5.1",
+    "ky-universal": "0.8.1",
+    "nuxt": "2.14.4",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": []
+}
